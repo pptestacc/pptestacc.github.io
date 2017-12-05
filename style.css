@@ -49,7 +49,7 @@ body {
 }
 
 .frame {
-    background-image: url(../statistics-images/bg2.jpg);
+    background-image: url(bg2.jpg);
     height: 500px;
     width: 90%;
     margin: auto;
@@ -127,7 +127,7 @@ body {
 .footer {
     width: 100%;
     height: auto;
-    background-image: url(../statistics-images/bg4.jpg);
+    background-image: url(bg4.jpg);
     background-size: cover;
     box-shadow: 0px -4px 10px -1px rgba(145, 145, 145, 0.66);
 }
@@ -151,7 +151,7 @@ body {
     font-size: 1.5em;
     margin-top: 10px;
     padding: 10px 0;
-    background-image: url(../statistics-images/img3.jpg);
+    background-image: url(img3.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
