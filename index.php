@@ -11,14 +11,15 @@
     <link href="style.css" rel="stylesheet" />
     <link href="animate.css" rel="stylesheet" />
     <link href="infinite-slider.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+
 </head>
 
 <body>
-    
+
     <!-- MOBILE TOP-NAV -->
     <div class="mobile-nav">
-        <a id="mobile-logo" href="index.html"></a>
+        <a id="mobile-logo" href="index.php"></a>
         <div class="mobile-menu-container">
             <span class="mobile-menu-icon"></span>
         </div>
@@ -28,19 +29,20 @@
     <!-- DESKTOP TOP-NAV -->
     <nav class="top-nav">
         <ul>
-            <a id="logo" href="index.html"></a>
-            <li class="active-link"><a href="#">Αρχική Σελίδα</a></li>
+            <a id="logo" href="index.php"></a>
+            <li class="active-link"><a href="index.php">Αρχική Σελίδα</a></li>
             <li class="dropdown-btn">
                 <a href="#">Πληροφορίες<span class="caret"></span></a>
                 <ul class="dropdown">
-                    <li><a href="dates.html">Ημερομηνίες</a></li>
-                    <li><a href="#">Επιλογή 2</a></li>
-                    <li><a href="#">Επιλογή 3</a></li>
-                    <li><a href="#">Επιλογή 4</a></li>
+                    <li><a href="registration.php">Εγγραφή Συμμετεχόντων</a></li>
+                    <li><a href="papers.php">Πρόσκληση Υποβολής Εργασιών</a></li>
+                    <li><a href="dates.php">Σημαντικές Ημερομηνίες</a></li>
+                    <li><a href="committee.php">Οργανωτική επιτροπή</a></li>
+                    <li><a href="venue.php">Χώρος Διεξαγωγής</a></li>
                 </ul>
             </li>
             <li><a href="#">Υποβολή Περιλήψεων</a></li>
-            <li><a href="program.html">Πρόγραμμα</a></li>
+            <li><a href="sponsors.php">Χορηγοί</a></li>
         </ul>
     </nav>
     <!-- END OF DESKTOP TOP-NAV -->
@@ -58,9 +60,24 @@
         <!-- CONTAINER THAT HOLDS THE INTRODUCTION -->
         <div class="container">
 
-            <p class="introduction">Με σκοπό την προώθηση της έρευνας και τη διάδοση της επιστημονικής γνώσης που αφορά τη Στατιστική Επιστήμη, οι ακαδημαϊκοί των δημόσιων και ιδιωτικών πανεπιστημίων της Κύπρου των οποίων τα ερευνητικά ενδιαφέροντα αφορούν την περιοχή της στατιστικής, διοργανώνουν την 1η Παγκύπρια Ημερίδα Στατιστικής που θα πραγματοποιηθεί στις εγκαταστάσεις του Πανεπιστημίου UCLan Cyprus την 1η Ιουνίου 2018.</p>
+            <p class="introduction">Με σκοπό την προώθηση της έρευνας και τη διάδοση της επιστημονικής γνώσης που αφορά τη Στατιστική Επιστήμη, οι ακαδημαϊκοί των δημόσιων και ιδιωτικών πανεπιστημίων της Κύπρου των οποίων τα ερευνητικά ενδιαφέροντα αφορούν την περιοχή της στατιστικής, διοργανώνουν την 1<sup>η</sup> Παγκύπρια Ημερίδα Στατιστικής που θα πραγματοποιηθεί στις εγκαταστάσεις του Πανεπιστημίου UCLan Cyprus την 1<sup>η</sup> Ιουνίου 2018. Το θέμα της ημερίδας είναι:</p>
+
+            <div id="center" class="introduction"><b><i>Θεωρία και Εφαρμογές της Στατιστικής Επιστήμης</i></b>
+            </div>
 
             <p class="introduction">Η ημερίδα απευθύνεται σε ακαδημαϊκούς, μεταπτυχιακούς φοιτητές καθώς και επιχειρηματικούς οργανισμούς των οποίων το αντικείμενο σχετίζεται με τη Στατιστική και τις εφαρμογές της. Οι συμμετέχοντες θα έχουν την ευκαιρία να παρουσιάσουν τις ακαδημαϊκές τους εργασίες, να επικοινωνήσουν, να αλληλεπιδράσουν, να συζητήσουν και να αναπτύξουν καινούριες συνεργασίες. Παράλληλα, μέσα από τις εργασίες της ημερίδας, η ακαδημαϊκή κοινότητα των στατιστικών καθώς και οι σχετικές με τη στατιστική επιχειρήσεις, θα μπορέσουν να γνωριστούν, να ανταλλάξουν γνώσεις και απόψεις και να αναζητήσουν τρόπους συνεργασίας.</p>
+
+            <div id="center" class="introduction"><b><i>«Πρόσκληση Υποβολής Εργασιών» </i></b>
+            </div>
+
+
+            <div class="introduction">Waiting for Ms Milto...<br><a class="more-btn" href="papers.php">Περισσότερα...</a></div>
+
+            <div id="center" class="introduction"><b><i>«Χώρος διεξαγωγής»</i></b>
+            </div>
+
+            <div class="introduction">Tο UCLan Cyprus λειτουργεί από τον Οκτώβριο του 2012 ως εγγεγραμμένο Iδιωτικό Πανεπιστήμιο στην Κύπρο, προσφέροντας άριστη βρετανική ανώτατη εκπαίδευση σε πτυχιακό και μεταπτυχιακό επίπεδο. Στρατηγικό όραμά του είναι να οικοδομήσει ένα κορυφαίο, σύγχρονο πανεπιστήμιο, αναγνωρισμένο για την παροχή μιας μοναδικής φοιτητικής εμπειρίας, καθώς και για την προσφορά του στη διεθνή έρευνα και καινοτόμο μάθηση. Επιμέρους στόχος είναι η ανάδειξη της Κύπρου ως διεθνές εκπαιδευτικό κέντρο.<br> <a class="more-btn" href="venue.php">Περισσότερα...</a></div>
+
 
         </div>
 

@@ -7,13 +7,13 @@
 .photo-roll {
     height: 120px;
     width: 3500px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     margin-left: 100%;
     font-size: 0;
 }
 
 .photo-roll img {
-    margin: 30px 10px 0 0;
+    margin: 10px 10px 0 0;
     width: 200px;
     height: 100px;
     -webkit-transition: all 0.5s ease;

@@ -1,16 +1,16 @@
  /* 
 
-SCRIPT FOR ACTIVATING ANIMATIONS ACCRORDING TO THE VIEWPORT POSITION
-+ STOPS INFINITE SLIDER MOVEMENT ON USER HOVER
- 
-*/
+ SCRIPT FOR ACTIVATING ANIMATIONS ACCRORDING TO THE VIEWPORT POSITION
+ + STOPS INFINITE SLIDER MOVEMENT ON USER HOVER
+  
+ */
 
 
-$(document).ready(function () {
+ $(document).ready(function () {
 
      $('.introduction').addClass("hidden").viewportChecker({
-         classToAdd: 'visible animated fadeInUp',
-         offset: 100
+         classToAdd: 'visible animated fadeInLeft',
+         offset: 10
      });
 
      $('.frame *').addClass("hidden").viewportChecker({
@@ -28,4 +28,19 @@ $(document).ready(function () {
          });
      }
 
+     $('.cnt').addClass("hidden").viewportChecker({
+         classToAdd: 'visible animated fadeInRight',
+         offset: -100
+     });
+
+     $('.odd').addClass("hidden").viewportChecker({
+         classToAdd: 'visible animated fadeInDown',
+         offset: 100
+     });
+     
+     $('.even').addClass("hidden").viewportChecker({
+         classToAdd: 'visible animated fadeInUp',
+         offset: 100
+     });
+     
  });
