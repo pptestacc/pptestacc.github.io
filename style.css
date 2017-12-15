@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'calibri', sans-serif;
 }
 
 /*CSS FOR BOTH MOBILE AND DESKTOP*/
@@ -11,11 +10,40 @@
 
 html {
     height: 100%;
+    font-family: 'calibri', sans-serif;
 }
 
 body {
     height: 100%;
     position: relative;
+}
+
+.pagination {
+    height: 70px;
+    background-image: url(bg4.jpg);
+    box-shadow: 0px 2px 12px 1px rgba(0, 0, 0, 0.41);
+    -webkit-box-shadow: 0px 2px 12px 1px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 0px 2px 12px 1px rgba(0, 0, 0, 0.41);
+    font-size: 2em;
+    color: #C61D3F;
+    width: 100%;
+}
+
+.pagination .pagination-container {
+    max-width: 1350px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.pagination .holder {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.pagination i {
+    margin-right: 20px;
 }
 
 .caret {
@@ -36,6 +64,12 @@ body {
 
 .open.caret {
     transform: rotate(180deg);
+}
+
+#main-title {
+    font-size: 1.4em;
+    font-family: 'Vollkorn', serif;
+
 }
 
 .content-container {
@@ -115,6 +149,7 @@ body {
 
 .cnt .mySlides {
     height: 100%;
+    width: 100%;
 }
 
 .cnt .left-btn {
@@ -181,7 +216,7 @@ body {
     font-size: 2em;
 }
 
-.container ul {
+.container .push-left {
     padding-left: 60px;
     text-align: left;
 }
@@ -189,6 +224,33 @@ body {
 .container #center {
     text-align: center;
     color: #2a2a2a;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.19);
+    line-height: 0.1em;
+    margin: 40px 0 30px;
+    font-size: 1.3em;
+}
+
+#center span {
+    padding: 0 40px;
+    background: white;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.flex-left {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px 0 20px;
+}
+
+.flex-right {
+    margin-left: 20px;
 }
 
 .container .more-btn {
@@ -330,6 +392,11 @@ body {
 
     .top-nav .active-link {
         border-bottom: 4px solid #C61B3D;
+        color: aqua;
+    }
+
+    .top-nav .active-link a {
+        color: #C61B3D;
     }
 
     .top-nav .active-dropdown {
@@ -504,9 +571,6 @@ body {
         max-width: 400px;
     }
 
-    .images-group {}
-
-
 
 }
 
@@ -529,6 +593,16 @@ body {
     .images-group * {
         height: 90%;
         width: 90%;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .pagination {
+        font-size: 1.7em;
     }
 
 }
@@ -560,6 +634,10 @@ body {
         margin: 0 auto;
         margin-bottom: 15px;
     }
+
+    .pagination {
+        font-size: 1.3em;
+    }
 }
 
 @media screen and (max-width: 567px) {
@@ -583,6 +661,10 @@ body {
     .cnt .right-btn,
     .cnt .left-btn {
         top: -105px;
+    }
+
+    .pagination {
+        font-size: 1.2em;
     }
 
 

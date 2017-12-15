@@ -608,8 +608,7 @@
     from {
         opacity: 0;
     }
-
-    to {
+    z to {
         opacity: 1;
     }
 }
@@ -653,7 +652,7 @@
 @keyframes fadeInLeft {
     from {
         opacity: 0;
-        transform: translate3d(-30%, 0, 0);
+        transform: translate3d(-50%, 0, 0);
     }
 
     to {
@@ -1338,7 +1337,7 @@
 
     50% {
         opacity: 1;
-        
+
     }
 }
 
