@@ -14,7 +14,7 @@
      });
 
      $('.frame *').addClass("hidden").viewportChecker({
-         classToAdd: 'visible animated fadeInLeft',
+         classToAdd: 'visible animated fadeInUp',
          offset: -500
      });
 
